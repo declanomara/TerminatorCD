@@ -1,0 +1,10 @@
+name: Terminator
+version: "1.0"
+author: Declan O'Mara
+main: network.chickendinner.terminator.Terminator
+api-version: "1.14"
+
+commands:
+  terminator:
+    description: Add or remove players from the terminator list
+    usage: /terminator {add|remove} {player}
